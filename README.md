@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/lornatumuhairwe/membershipPlatform.svg?branch=master)](https://travis-ci.com/lornatumuhairwe/membershipPlatform)
+[![Coverage Status](https://coveralls.io/repos/github/lornatumuhairwe/membershipPlatform/badge.svg?branch=master)](https://coveralls.io/github/lornatumuhairwe/membershipPlatform?branch=master)
+
 # Membership Platform
 
 #### Prerequisites
