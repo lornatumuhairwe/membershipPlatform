@@ -9,6 +9,7 @@ RSpec.describe 'plans requests', type: :request do
 
   describe 'GET /plan/:id/members' do
     before { get "/plan/#{plan_id}/members" }
+
     context 'when plan exists' do
       it 'returns status code 200' do
         expect(response).to have_http_status(:ok)
