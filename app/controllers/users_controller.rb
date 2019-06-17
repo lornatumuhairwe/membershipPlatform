@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  skip_before_action :authenticate
+
   def get_api_key
     user = User.create!(user_params)
     render json: user, status: :created
