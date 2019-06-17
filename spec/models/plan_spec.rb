@@ -5,11 +5,11 @@ RSpec.describe Plan, type: :model do
     it { should validate_presence_of(:name) }
 
     it 'validates presence of start_date if time limited' do
-      Plan.new(category: :time_limited).should validate_presence_of(:start_date)
+      expect(Plan.new(category: :time_limited)).to validate_presence_of(:start_date)
     end
 
     it 'validates presence of end_date if time limited' do
-      Plan.new(category: :time_limited).should validate_presence_of(:end_date)
+      expect(Plan.new(category: :time_limited)).to validate_presence_of(:end_date)
     end
   end
 

@@ -39,6 +39,6 @@ With the api key received, use it to make subsquents request to fetch users by m
 - Run the server with `rails s`
 
 
-Tests
+#### Tests
 
 In the project directory, run `rspec` 
