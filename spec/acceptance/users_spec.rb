@@ -3,7 +3,7 @@ require 'rspec_api_documentation/dsl'
 
 resource 'Users' do
   post '/get_api_key' do
-    parameter :email, 'User Email'
+    parameter :email, 'User Email', type: :string
 
     example 'Generating an Api Key' do
       do_request(email: 'lorna@test.com')

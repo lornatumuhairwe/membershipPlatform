@@ -7,6 +7,7 @@
   "explanation": null,
   "parameters": [
     {
+      "type": "string",
       "name": "email",
       "description": "User Email"
     }
@@ -33,8 +34,8 @@
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "059c6c27-daa9-42bd-ae96-f79f6f5bfaf6",
-        "X-Runtime": "0.002397",
+        "X-Request-Id": "71fecc5e-fbfd-44bd-8c5c-2918e0ed950b",
+        "X-Runtime": "0.002421",
         "Content-Length": "28"
       },
       "response_content_type": "application/json; charset=utf-8",

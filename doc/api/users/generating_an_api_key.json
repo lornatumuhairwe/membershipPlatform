@@ -7,6 +7,7 @@
   "explanation": null,
   "parameters": [
     {
+      "type": "string",
       "name": "email",
       "description": "User Email"
     }
@@ -29,13 +30,13 @@
       "request_content_type": "application/x-www-form-urlencoded",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\n  \"id\": 142,\n  \"email\": \"lorna@test.com\",\n  \"api_key\": \"I11xXRUezprOzwrr\",\n  \"created_at\": \"2019-06-22T13:21:41.356Z\",\n  \"updated_at\": \"2019-06-22T13:21:41.356Z\"\n}",
+      "response_body": "{\n  \"id\": 145,\n  \"email\": \"lorna@test.com\",\n  \"api_key\": \"Ic2mxp4sOTMDggrr\",\n  \"created_at\": \"2019-06-22T21:32:21.690Z\",\n  \"updated_at\": \"2019-06-22T21:32:21.690Z\"\n}",
       "response_headers": {
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"5ad1a448b229d06e96d4c74e637cee1c\"",
+        "ETag": "W/\"eb22b3bdcdf08f0fafa076a3a031feae\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "6a6647ac-1741-4a5e-86c5-b74eb5d619c4",
-        "X-Runtime": "0.006262",
+        "X-Request-Id": "6089b155-aff6-4bac-8926-cbf249ecbbee",
+        "X-Runtime": "0.006224",
         "Content-Length": "144"
       },
       "response_content_type": "application/json; charset=utf-8",
