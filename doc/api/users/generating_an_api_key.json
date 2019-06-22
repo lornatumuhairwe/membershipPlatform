@@ -1,0 +1,45 @@
+{
+  "resource": "Users",
+  "resource_explanation": null,
+  "http_method": "POST",
+  "route": "/get_api_key",
+  "description": "Generating an Api Key",
+  "explanation": null,
+  "parameters": [
+    {
+      "name": "email",
+      "description": "User Email"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/get_api_key",
+      "request_body": "email=lorna%40test.com",
+      "request_headers": {
+        "Host": "example.org",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/x-www-form-urlencoded",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\n  \"id\": 142,\n  \"email\": \"lorna@test.com\",\n  \"api_key\": \"I11xXRUezprOzwrr\",\n  \"created_at\": \"2019-06-22T13:21:41.356Z\",\n  \"updated_at\": \"2019-06-22T13:21:41.356Z\"\n}",
+      "response_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"5ad1a448b229d06e96d4c74e637cee1c\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "6a6647ac-1741-4a5e-86c5-b74eb5d619c4",
+        "X-Runtime": "0.006262",
+        "Content-Length": "144"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

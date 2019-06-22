@@ -1,0 +1,44 @@
+{
+  "resources": [
+    {
+      "name": "Plans",
+      "explanation": null,
+      "examples": [
+        {
+          "description": "Fetches members of the plan",
+          "link": "plans/fetches_members_of_the_plan.json",
+          "groups": "all",
+          "route": "/plan/:id/members",
+          "method": "get"
+        },
+        {
+          "description": "Fetches members of the plan - errors",
+          "link": "plans/fetches_members_of_the_plan_-_errors.json",
+          "groups": "all",
+          "route": "/plan/:id/members",
+          "method": "get"
+        }
+      ]
+    },
+    {
+      "name": "Users",
+      "explanation": null,
+      "examples": [
+        {
+          "description": "Generating an Api Key",
+          "link": "users/generating_an_api_key.json",
+          "groups": "all",
+          "route": "/get_api_key",
+          "method": "post"
+        },
+        {
+          "description": "Generating an Api key - errors",
+          "link": "users/generating_an_api_key_-_errors.json",
+          "groups": "all",
+          "route": "/get_api_key",
+          "method": "post"
+        }
+      ]
+    }
+  ]
+}
