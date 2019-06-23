@@ -2,6 +2,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/lornatumuhairwe/membershipPlatform/badge.svg?branch=master)](https://coveralls.io/github/lornatumuhairwe/membershipPlatform?branch=master)
 
 # Membership Platform
+You can find the documentation [here.](https://membership-platform.herokuapp.com/api/docs)
 
 #### Prerequisites
 
