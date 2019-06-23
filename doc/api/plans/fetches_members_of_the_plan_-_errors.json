@@ -1,0 +1,41 @@
+{
+  "resource": "Plans",
+  "resource_explanation": null,
+  "http_method": "GET",
+  "route": "/plan/:id/members",
+  "description": "Fetches members of the plan - errors",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/plan/197/members",
+      "request_body": null,
+      "request_headers": {
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 401,
+      "response_status_text": "Unauthorized",
+      "response_body": "HTTP Token: Access denied.\n",
+      "response_headers": {
+        "WWW-Authenticate": "Token realm=\"Application\"",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Cache-Control": "no-cache",
+        "X-Request-Id": "ec7ecc30-b0cb-4dea-9658-9393f06816f1",
+        "X-Runtime": "0.000832",
+        "Content-Length": "27"
+      },
+      "response_content_type": "text/plain; charset=utf-8",
+      "curl": null
+    }
+  ]
+}
