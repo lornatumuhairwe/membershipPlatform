@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :plan do
     get 'members', on: :member
   end
-
   post '/get_api_key', to: 'users#get_api_key'
+
+  get '*other', to: 'welcome#index'
 end
